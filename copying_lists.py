@@ -1,6 +1,3 @@
-from multiprocessing.sharedctypes import copy
-
-
 a_list = [3,4,5]
 b_list = a_list #copying object not the contents so the two lists become the same see id
 

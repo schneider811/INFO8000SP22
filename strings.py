@@ -1,6 +1,3 @@
-from numpy import c_
-
-
 a_string = "a double quoted string can contain ''"
 another_string = 'a single quotes string can contain ""'
 an_escaped_string = "a double quoted string can contain \"\", but \\ must be escaped(double \\)"

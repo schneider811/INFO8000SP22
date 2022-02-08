@@ -1,6 +1,3 @@
-from tracemalloc import stop
-
-
 print("Loading the file")
 f = open("test.txt")
 print(f)

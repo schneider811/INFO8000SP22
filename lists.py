@@ -1,6 +1,3 @@
-from re import A
-
-
 a_list = [0,13,95,34,56,12]
 #print(a_list[0])
 #print(a_list[-1]) #last element = -1
@@ -51,3 +48,17 @@ print(a_list)
 
 a_list.insert(2,3) #adds 3 at 2 place
 print(a_list)
+
+del a_list[0:3]
+print(a_list)
+
+#finding the deltas for an integer list
+a_list = [3,5,7,10,1,6]
+
+for second_num in a_list[1::2]: #prints every other number
+    print(second_num)
+
+deltas = []
+for i in range(1,len(a_list)):
+    deltas.append(a_list[i] - a_list[i-1])
+print(deltas)
