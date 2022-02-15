@@ -62,3 +62,4 @@ deltas = []
 for i in range(1,len(a_list)):
     deltas.append(a_list[i] - a_list[i-1])
 print(deltas)
+
